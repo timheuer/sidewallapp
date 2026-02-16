@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Sidewall</title>
+    <meta name="description" content="Privacy Policy for Sidewall - Precision Tire Pressure Calculator">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <link rel="icon" type="image/png" href="../icon.png">
+    <style>
+        .privacy-content {
+            padding: var(--spacing-xl) 0;
+            min-height: calc(100vh - 200px);
+        }
+
+        .privacy-content h1 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .privacy-content h2 {
+            color: var(--color-primary);
+            margin-top: var(--spacing-md);
+            margin-bottom: var(--spacing-sm);
+            font-size: 1.5rem;
+        }
+
+        .privacy-content p {
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-text);
+        }
+
+        .privacy-content ul {
+            margin-bottom: var(--spacing-sm);
+            padding-left: var(--spacing-md);
+        }
+
+        .privacy-content li {
+            margin-bottom: var(--spacing-xs);
+            color: var(--color-text);
+        }
+
+        .last-updated {
+            color: var(--color-text-light);
+            font-size: 0.9rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: var(--spacing-md);
+            color: var(--color-accent);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .privacy-content code {
+            background: var(--color-bg-alt);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-family: 'SF Mono', Monaco, monospace;
+        }
+
+        .privacy-table {
+            width: 100%;
+            max-width: 500px;
+            border-collapse: collapse;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .privacy-table th,
+        .privacy-table td {
+            padding: var(--spacing-sm);
+            text-align: left;
+            border: 1px solid var(--color-border);
+        }
+
+        .privacy-table th {
+            background: var(--color-bg-alt);
+            font-weight: 600;
+        }
+
+        .privacy-table td {
+            color: var(--color-text);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="privacy-content">
+        <div class="container">
+            <a href="/" class="back-link">&larr; Back to Home</a>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle"><strong>Sidewall - Cycling Tire Pressure Calculator</strong></p>
+            <p class="last-updated">Last updated: February 2026</p>
+
+            <h2>Summary</h2>
+            <p>Sidewall is designed with privacy as a core principle. The app:</p>
+            <ul>
+                <li>Collects <strong>no personal data</strong></li>
+                <li>Has <strong>no analytics or telemetry</strong></li>
+                <li>Makes <strong>no network requests</strong> to external servers</li>
+                <li>Uses <strong>only your private iCloud</strong> for optional sync</li>
+            </ul>
+
+            <h2>Data Collection</h2>
+            <p><strong>We do not collect any data.</strong></p>
+            <p>Sidewall does not collect, transmit, or share any personal information, usage data, or analytics. The app
+                has no user accounts, no registration, and no external backend.</p>
+
+            <h2>Data Storage</h2>
+            <p>All data you enter in Sidewall is stored locally on your device:</p>
+            <ul>
+                <li>Rider weight and preferences</li>
+                <li>Bike profiles</li>
+                <li>Wheel and tire setups</li>
+                <li>Calculation history</li>
+            </ul>
+            <p>This data never leaves your device unless you enable iCloud sync.</p>
+
+            <h2>iCloud Sync</h2>
+            <p>If you use iCloud sync, your data is stored in your <strong>private iCloud database</strong> using
+                Apple's CloudKit framework. This means:</p>
+            <ul>
+                <li>Only you can access your data</li>
+                <li>Data is encrypted in transit and at rest</li>
+                <li>Apple manages the infrastructure, but cannot read your data</li>
+                <li>No third parties have access</li>
+                <li>Sidewall has no server-side access to your synced data</li>
+            </ul>
+            <p>You can disable iCloud sync at any time in your device settings. The app functions fully offline.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>Sidewall uses <strong>no third-party services</strong>:</p>
+            <ul>
+                <li>No analytics (no Google Analytics, Firebase, Mixpanel, etc.)</li>
+                <li>No crash reporting services</li>
+                <li>No advertising networks</li>
+                <li>No social media integrations</li>
+                <li>No external APIs</li>
+            </ul>
+
+            <h2>Network Activity</h2>
+            <p>Sidewall makes <strong>no network requests</strong> except for iCloud sync (if enabled). The app does
+                not:</p>
+            <ul>
+                <li>Phone home to any server</li>
+                <li>Check for updates via external endpoints</li>
+                <li>Load remote assets or configurations</li>
+            </ul>
+
+            <h2>Tracking</h2>
+            <p>Sidewall does <strong>not track you</strong> in any way:</p>
+            <ul>
+                <li>No device fingerprinting</li>
+                <li>No advertising identifiers</li>
+                <li>No cross-app tracking</li>
+                <li>No user behavior tracking</li>
+            </ul>
+            <p>This is declared in the app's <code>PrivacyInfo.xcprivacy</code> manifest with
+                <code>NSPrivacyTracking</code> set to <code>false</code> and empty tracking domains.</p>
+
+            <h2>Apple Privacy Nutrition Label</h2>
+            <p>Based on Apple's App Privacy requirements, Sidewall declares:</p>
+            <table class="privacy-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Declaration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data Used to Track You</td>
+                        <td>None</td>
+                    </tr>
+                    <tr>
+                        <td>Data Linked to You</td>
+                        <td>None</td>
+                    </tr>
+                    <tr>
+                        <td>Data Not Linked to You</td>
+                        <td>None</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Permissions</h2>
+            <p>Sidewall requests minimal permissions:</p>
+            <ul>
+                <li><strong>Photo Library</strong>: Optional access to add photos to your bike profiles. Photos are
+                    stored locally and synced only via your private iCloud.</li>
+                <li>No location access</li>
+                <li>No contacts access</li>
+                <li>No health data access</li>
+                <li>No notification permissions</li>
+            </ul>
+            <p>The only other optional system integration is iCloud, managed through your device settings.</p>
+
+            <h2>Children's Privacy</h2>
+            <p>Sidewall does not collect any data and is safe for users of all ages. There is no content that requires
+                age restrictions.</p>
+
+            <h2>Changes to This Policy</h2>
+            <p>If we make changes to this privacy policy, we will update the "Last updated" date at the top. Since we
+                collect no data and have no way to contact users, significant changes would only be communicated through
+                App Store update notes.</p>
+
+            <h2>Contact</h2>
+            <p>For questions about this privacy policy or the app:</p>
+            <ul>
+                <li><strong>Developer</strong>: Tim Heuer</li>
+                <li><strong>App</strong>: Sidewall</li>
+            </ul>
+
+            <h2>Open Source Algorithms</h2>
+            <p>Sidewall implements pressure calculation algorithms based on publicly documented methods from Silca,
+                Wolftooth, and SRAM. These are registered trademarks of their respective owners. Sidewall is not
+                affiliated with or endorsed by these companies.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Tim Heuer. All rights reserved.</p>
+            <nav>
+                <a href="/privacy/">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
