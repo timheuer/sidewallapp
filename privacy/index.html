@@ -110,7 +110,7 @@
             <ul>
                 <li>Collects <strong>no personal data</strong></li>
                 <li>Has <strong>no analytics or telemetry</strong></li>
-                <li>Makes <strong>no network requests</strong> to external servers</li>
+                <li>Makes <strong>no network requests</strong> except to Apple services (iCloud sync, WeatherKit)</li>
                 <li>Uses <strong>only your private iCloud</strong> for optional sync</li>
             </ul>
 
@@ -152,12 +152,31 @@
             </ul>
 
             <h2>Network Activity</h2>
-            <p>Sidewall makes <strong>no network requests</strong> except for iCloud sync (if enabled). The app does
-                not:</p>
+            <p>Sidewall makes <strong>no network requests</strong> except for:</p>
+            <ul>
+                <li><strong>iCloud sync</strong> (if enabled)</li>
+                <li><strong>WeatherKit</strong> (if you use the location-based temperature feature)</li>
+            </ul>
+            <p>The app does not:</p>
             <ul>
                 <li>Phone home to any server</li>
                 <li>Check for updates via external endpoints</li>
                 <li>Load remote assets or configurations</li>
+            </ul>
+
+            <h2>Location and Weather Data</h2>
+            <p>Sidewall optionally uses your device's location to fetch current weather conditions from Apple's
+                WeatherKit service. This feature helps auto-fill the riding temperature for more accurate pressure
+                calculations.</p>
+            <ul>
+                <li><strong>When collected</strong>: Only when you tap the location button next to the temperature field
+                </li>
+                <li><strong>What's collected</strong>: Your device's current location is sent to Apple's servers to
+                    retrieve weather data</li>
+                <li><strong>Storage</strong>: Your location is not stored, logged, or transmitted to any servers other
+                    than Apple's WeatherKit</li>
+                <li><strong>Third parties</strong>: Apple processes the location request per their privacy policy</li>
+                <li><strong>Optional</strong>: You can always manually enter the temperature instead</li>
             </ul>
 
             <h2>Tracking</h2>
@@ -202,7 +221,8 @@
             <ul>
                 <li><strong>Photo Library</strong>: Optional access to add photos to your bike profiles. Photos are
                     stored locally and synced only via your private iCloud.</li>
-                <li>No location access</li>
+                <li><strong>Location</strong>: Optional access to fetch current weather for temperature auto-fill. Your
+                    location is sent only to Apple's WeatherKit and is not stored or logged.</li>
                 <li>No contacts access</li>
                 <li>No health data access</li>
                 <li>No notification permissions</li>
