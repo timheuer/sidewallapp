@@ -273,6 +273,13 @@ body {
     flex-wrap: wrap;
 }
 
+.cta-badges .app-store-badge img,
+.cta-badges .testflight-badge img {
+    width: 162px;
+    height: 54px;
+    object-fit: contain;
+}
+
 /* Footer */
 footer {
     padding: var(--spacing-md) 0;
