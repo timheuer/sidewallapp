@@ -84,12 +84,14 @@ body {
     line-height: 1.7;
 }
 
-.app-store-badge img {
+.app-store-badge img,
+.testflight-badge img {
     height: 54px;
     transition: transform 0.2s ease;
 }
 
-.app-store-badge:hover img {
+.app-store-badge:hover img,
+.testflight-badge:hover img {
     transform: scale(1.05);
 }
 
@@ -261,6 +263,14 @@ body {
     opacity: 0.9;
     margin-bottom: var(--spacing-md);
     font-size: 1.1rem;
+}
+
+.cta-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
 }
 
 /* Footer */

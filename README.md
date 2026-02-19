@@ -1,6 +1,6 @@
 # Sidewall Website
 
-Public website for the [Sidewall](https://apps.apple.com/app/sidewall) app - a precision tire pressure calculator for cyclists.
+Public website for the [Sidewall](https://apps.apple.com/us/app/sidewall/id6759263371) app - a precision tire pressure calculator for cyclists.
 
 ## Support
 
